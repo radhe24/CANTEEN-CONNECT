@@ -5,14 +5,7 @@ from pyrebase.pyrebase import initialize_app
 def login(page:Page):
     
     firebaseConfig = {
-            "apiKey": "AIzaSyDUg2qdrAungywEjwzp1auQdzZt4xazMJM",
-            'authDomain': "canteen-connect-85f2a.firebaseapp.com",
-            'projectId': "canteen-connect-85f2a",
-            'storageBucket': "canteen-connect-85f2a.appspot.com",
-            'messagingSenderId': "893219346794",
-            'appId': "1:893219346794:web:b27a77c0f5eff78b66ad13",
-            'measurementId': "G-LQ9QRGB310",
-            "databaseURL" : ""
+            
     }
     
     def login(e):
